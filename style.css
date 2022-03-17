@@ -1,13 +1,12 @@
 
 body{
-    margin: 0;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
-/*
-*{
-    border: 2px solid red;
 
-}
-*/
+
+
 ul{
     display: flex;
     list-style-type: none;
@@ -21,15 +20,43 @@ button{
     color: #F9FAF8;
     font-weight: 800;
     margin-top: 10px;
+    width: 100px;
+    height: 25px;
 }
 
-*{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bo;
+
+.container{
+    text-align: center;
 }
+
+.info{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 52px;
+    margin-bottom: 100px;
+}
+
+.info-box{
+    max-width: 200px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
 .Title{
     font-size: 24px;
     color: #F9FAF8;
     padding-top: 10px;
+}
+
+.info-title{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin: 50px 0px 50px 0px;
 }
 
 .Main-text{
@@ -71,10 +98,77 @@ button{
     width: auto;
 }
 
-#rcorners{
-    border-radius: 25px;
-    border: 2px solid #3882F6;
+.quote-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.quote{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    padding: 0px;
+    font-weight: lighter;
+}
+
+.quote-div .quote span{
+    float: right;
+    font-size: 15px;
+}
+
+.call-container{
+    display: flex;
+    justify-content: center;
+}
+
+.call-box{
+    background-color: #3882F6;
+    height: 200px;
+    width: 50%;
+    margin: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.call-box h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+.call-box h2{
+    font-size: 15px;
+    font-weight: bold;
+    color: #E5E7EB;
+    margin: 0px;
+}
+
+p{
+    margin: 0px;
+}
+
+.sign-button{
+    border-radius: 5px;
+    border: 2px solid white;
     padding: 0;
-    width: 100px;
-    height: 25px;
+    background: none;
+    outline: none;
+}
+
+#rcorners{
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+    padding: 0;
+}
+
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    font-size: 12px;
+    color: #E5E7EB;
+    padding: 20px;
 }
